@@ -6,7 +6,7 @@
       "Properties": {
         "Mode": "Switch",
         "Sort": "Health",
-        "Auto Block": "Hypixel",
+        "Auto Block": "Mushmc",
         "Auto Block CPS": 10.0,
         "Auto Block Range": 6.0,
         "Swing Range": 3.5,
@@ -81,11 +81,11 @@
         "Auto Direction": false,
         "Render Path": true,
         "Path Points": 32.0,
-        "Render Target": false
+        "Render Target": true
       }
     },
     "Criticals": {
-      "toggled": true,
+      "toggled": false,
       "hidden": false,
       "Properties": {
         "Mode": "Edit"
@@ -108,7 +108,7 @@
       }
     },
     "Blink Range": {
-      "toggled": false,
+      "toggled": true,
       "hidden": false,
       "Properties": {
         "Mode": "Range",
@@ -157,7 +157,7 @@
         "Activate Distance": 2.5,
         "Deactivate Distance": 3.4000000000000004,
         "Mode": "Constant",
-        "Cancel Client Packets": false,
+        "Cancel Client Packets": true,
         "Swing Check": true,
         "Release On Damage": true
       }
@@ -240,8 +240,8 @@
         "Entities": "Optimal",
         "Min Range": 2.0,
         "Max Range": 5.0,
-        "Max Delay": 100.0,
-        "Max Recast Delay": 100.0,
+        "Max Delay": 185.0,
+        "Max Recast Delay": 260.0,
         "FOV": 360.0,
         "Only On Kill Aura": true,
         "Rotate": true,
@@ -331,7 +331,7 @@
       "toggled": false,
       "hidden": false,
       "Properties": {
-        "Mode": "OldGrim",
+        "Mode": "Vanilla",
         "Vanilla Speed": 1.0
       }
     },
@@ -431,7 +431,7 @@
       "Properties": {
         "Mode": "SlowTelly",
         "Rotations": "Normal",
-        "Search Algorithm": "Secondary",
+        "Search Algorithm": "Normal",
         "Min Rotation Speed": 10.0,
         "Max Rotation Speed": 10.0,
         "Limit Rotations": true,
@@ -442,11 +442,11 @@
         "Place Delay": 0.0,
         "Packet Place": true,
         "Packet Swing": true,
-        "Sprint Mode": "Vanilla",
+        "Sprint Mode": "Legit",
         "Tower Mode": "None",
         "Tower Move": true,
         "Move Fix": true,
-        "Ray Cast": "Strict",
+        "Ray Cast": "None",
         "Auto Jump": "Normal",
         "Auto Jump Delay": 0.0,
         "Jump Only On Edge": false,
@@ -579,10 +579,10 @@
       }
     },
     "Inventory Movement": {
-      "toggled": false,
+      "toggled": true,
       "hidden": false,
       "Properties": {
-        "Mode": "Hypixel"
+        "Mode": "Normal"
       }
     },
     "Legit Scaffold": {
@@ -642,9 +642,9 @@
       "hidden": true,
       "Properties": {
         "Click Interface": "Normal",
-        "Font": "MC",
+        "Font": "Apple",
         "Color": "Astolfo",
-        "Anime": "Io",
+        "Anime": "None",
         "Custom URL": "https://www.clipartmax.com/png/full/293-2934496_mizore-shirayuki-rosario-vampire-ice-girl.png",
         "Show In-Game": false,
         "Show In Inventory": true,
@@ -655,7 +655,7 @@
       "toggled": true,
       "hidden": false,
       "Properties": {
-        "Theme": "Advantage"
+        "Theme": "Purple"
       }
     },
     "FPS Enhancer": {
@@ -679,13 +679,13 @@
       "hidden": false,
       "Properties": {
         "Disable Kill Aura On Scaffold": true,
-        "Disable Speed On Scaffold": true,
+        "Disable Speed On Scaffold": false,
         "Disable Kill Aura On Flag": false,
-        "Disable Speed On Flag": true,
-        "Disable Scaffold On Flag": true,
-        "Disable Manager On Flag": true,
-        "Disable AutoArmor On Flag": true,
-        "Disable Stealer On Flag": true
+        "Disable Speed On Flag": false,
+        "Disable Scaffold On Flag": false,
+        "Disable Manager On Flag": false,
+        "Disable AutoArmor On Flag": false,
+        "Disable Stealer On Flag": false
       }
     },
     "No Crash": {
@@ -714,7 +714,7 @@
       "toggled": true,
       "hidden": true,
       "Properties": {
-        "Mode": "NPC"
+        "Mode": "TabList"
       }
     },
     "MCF": {
@@ -776,7 +776,7 @@
       }
     },
     "Murder Detector": {
-      "toggled": true,
+      "toggled": false,
       "hidden": false
     },
     "KillSults": {
@@ -787,10 +787,10 @@
       "toggled": true,
       "hidden": false,
       "Properties": {
-        "Background": false,
+        "Background": true,
         "Background Color": "Normal",
-        "Background Opacity": 50.0,
-        "Outline": false,
+        "Background Opacity": 76.0,
+        "Outline": true,
         "Line": "Rise",
         "Hide Visuals": false,
         "Use MC Font": true,
@@ -817,7 +817,7 @@
       }
     },
     "Info Display": {
-      "toggled": false,
+      "toggled": true,
       "hidden": false,
       "Properties": {
         "Mode": "Classic",
@@ -825,7 +825,7 @@
         "FPS": true,
         "BPS": true,
         "Version": true,
-        "Username": true
+        "Username": false
       }
     },
     "Notifications": {
@@ -840,15 +840,15 @@
       "toggled": true,
       "hidden": false,
       "Properties": {
-        "Scale": 0.8,
-        "Size": 100.0
+        "Scale": 1.1,
+        "Size": 75.0
       }
     },
     "Capes": {
       "toggled": true,
       "hidden": false,
       "Properties": {
-        "Cape": "Rise"
+        "Cape": "Kitty"
       }
     },
     "Glint": {
@@ -918,7 +918,7 @@
       "toggled": true,
       "hidden": false,
       "Properties": {
-        "Mode": "Rise"
+        "Mode": "Advantage"
       }
     },
     "Overlay": {
@@ -1002,7 +1002,7 @@
       "toggled": true,
       "hidden": false,
       "Properties": {
-        "Quality": "SMOOTH",
+        "Quality": "UMBRELLA",
         "Show in First Person": false,
         "Rotate": true,
         "Radius": 0.65,
@@ -1023,7 +1023,7 @@
       }
     },
     "Fire Flies": {
-      "toggled": true,
+      "toggled": false,
       "hidden": false,
       "Properties": {
         "Dark Imprint": false,
@@ -1033,7 +1033,7 @@
       }
     },
     "Bread Crumbs": {
-      "toggled": true,
+      "toggled": false,
       "hidden": false
     },
     "Aspect Ratio": {
@@ -1044,7 +1044,7 @@
       }
     },
     "Trajectories": {
-      "toggled": true,
+      "toggled": false,
       "hidden": false,
       "Properties": {
         "Width": 6.0
@@ -1082,7 +1082,7 @@
       "toggled": false,
       "hidden": false,
       "Properties": {
-        "Blur Amount": 7.0
+        "Blur Amount": 1.0
       }
     },
     "Item ESP": {
@@ -1093,7 +1093,7 @@
   "Dragging": {
     "SessionInformation": {
       "x": 887.0,
-      "y": 690.0
+      "y": 691.0
     },
     "Radar": {
       "x": 0.0,
