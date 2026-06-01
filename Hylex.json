@@ -11,13 +11,13 @@
         "Auto Block Range": 6.0,
         "Swing Range": 4.1000000000000005,
         "Seek Range": 4.2,
-        "Attack Range": 3.2,
+        "Attack Range": 3.1,
         "FOV": 360.0,
         "Min CPS": 9.0,
         "Max CPS": 13.0,
         "Switch Delay": 150.0,
-        "Rotations": "Silent",
-        "Move Fix": "Silent",
+        "Rotations": "LiquidBounce",
+        "Move Fix": "Strict",
         "Dead Zone": 0.5,
         "Max Speed": 25.0,
         "Min Speed": 5.0,
@@ -25,7 +25,7 @@
         "Through Walls": true,
         "Require Press": false,
         "Allow Mining": true,
-        "Weapons Only": true,
+        "Weapons Only": false,
         "Allow Tools": false,
         "Inventory Check": true,
         "Bot Check": true,
@@ -149,11 +149,11 @@
       }
     },
     "Back Track": {
-      "toggled": false,
+      "toggled": true,
       "hidden": false,
       "Properties": {
-        "Min Delay": 190.0,
-        "Max Delay": 460.0,
+        "Min Delay": 2050.0,
+        "Max Delay": 2300.0,
         "Activate Distance": 2.5,
         "Deactivate Distance": 3.4000000000000004,
         "Mode": "Constant",
@@ -178,17 +178,17 @@
       }
     },
     "Hit Select": {
-      "toggled": false,
+      "toggled": true,
       "hidden": false,
       "Properties": {
         "Mode": "Stop",
         "Type": "Reduce",
-        "Chance": 80.0,
+        "Chance": 90.0,
         "Threshold": 400.0
       }
     },
     "Auto Clicker": {
-      "toggled": true,
+      "toggled": false,
       "hidden": false,
       "Properties": {
         "Left Click": true,
@@ -210,7 +210,7 @@
       }
     },
     "Aim Assist": {
-      "toggled": true,
+      "toggled": false,
       "hidden": false,
       "Properties": {
         "Search Range": 4.0,
@@ -432,25 +432,25 @@
         "Mode": "FastTelly",
         "Rotations": "Normal",
         "Search Algorithm": "Normal",
-        "Min Rotation Speed": 5.0,
-        "Max Rotation Speed": 7.0,
+        "Min Rotation Speed": 10.0,
+        "Max Rotation Speed": 10.0,
         "Limit Rotations": false,
         "Yaw Max": 180.0,
         "Yaw Min": 30.0,
         "Pitch Max": 90.0,
         "Pitch Min": 20.0,
-        "Place Delay": 2.0,
+        "Place Delay": 0.0,
         "Packet Place": false,
         "Packet Swing": false,
         "Sprint Mode": "Legit",
         "Tower Mode": "None",
         "Tower Move": true,
         "Move Fix": true,
-        "Ray Cast": "Strict",
+        "Ray Cast": "None",
         "Auto Jump": "Normal",
         "Auto Jump Delay": 0.0,
         "Jump Only On Edge": false,
-        "Keep Y": true,
+        "Keep Y": false,
         "Sneak": false,
         "Sneak Every": 8.0,
         "Safe Walk": false,
@@ -582,7 +582,7 @@
       "toggled": false,
       "hidden": false,
       "Properties": {
-        "Mode": "Hypixel"
+        "Mode": "Normal"
       }
     },
     "Legit Scaffold": {
@@ -641,12 +641,12 @@
       "toggled": true,
       "hidden": true,
       "Properties": {
-        "Click Interface": "Window",
-        "Font": "MC",
-        "Color": "Astolfo",
-        "Anime": "Io",
+        "Click Interface": "Normal",
+        "Font": "Apple",
+        "Color": "FDP",
+        "Anime": "None",
         "Custom URL": "https://www.clipartmax.com/png/full/293-2934496_mizore-shirayuki-rosario-vampire-ice-girl.png",
-        "Show In-Game": false,
+        "Show In-Game": true,
         "Show In Inventory": true,
         "Blink Cancels Incoming": true
       }
@@ -655,7 +655,7 @@
       "toggled": true,
       "hidden": false,
       "Properties": {
-        "Theme": "Advantage"
+        "Theme": "Red"
       }
     },
     "FPS Enhancer": {
@@ -732,11 +732,11 @@
       "toggled": false,
       "hidden": false,
       "Properties": {
-        "Delay": 300.0,
+        "Delay": 390.0,
         "Delay Teleports": true,
         "Delay Velocity": true,
         "Delay Entity Movements": true,
-        "Render Lag Pos": true
+        "Render Lag Pos": false
       }
     },
     "Client Spoofer": {
@@ -787,13 +787,13 @@
       "toggled": true,
       "hidden": false,
       "Properties": {
-        "Background": true,
-        "Background Color": "Normal",
+        "Background": false,
+        "Background Color": "Theme",
         "Background Opacity": 81.0,
         "Outline": false,
         "Line": "Right",
         "Hide Visuals": true,
-        "Use MC Font": true,
+        "Use MC Font": false,
         "No Spaces": true,
         "Char Spacing": 0.0,
         "Show Suffix": true,
@@ -811,9 +811,9 @@
       "toggled": true,
       "hidden": false,
       "Properties": {
-        "Client Watermark Type": "Simple",
-        "Watermark Info": false,
-        "Client Name": "Myau"
+        "Client Watermark Type": "Island",
+        "Watermark Info": true,
+        "Client Name": "Advantage"
       }
     },
     "Info Display": {
@@ -1092,8 +1092,8 @@
   },
   "Dragging": {
     "SessionInformation": {
-      "x": 141.5,
-      "y": 17.0
+      "x": 7.5,
+      "y": 6.0
     },
     "Radar": {
       "x": 2.0,
@@ -1120,8 +1120,8 @@
       "y": 446.0
     },
     "InfoDisplay_CPS": {
-      "x": 724.0,
-      "y": 408.0
+      "x": 394.0,
+      "y": 225.0
     },
     "InfoDisplay_BPS": {
       "x": 381.0,
