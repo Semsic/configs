@@ -6,12 +6,12 @@
       "Properties": {
         "Mode": "Switch",
         "Sort": "Distance",
-        "Auto Block": "Mush",
+        "Auto Block": "Vanilla",
         "Auto Block CPS": 10.0,
-        "Auto Block Range": 3.5,
-        "Swing Range": 3.5,
+        "Auto Block Range": 3.0,
+        "Swing Range": 3.0,
         "Seek Range": 4.0,
-        "Attack Range": 3.0,
+        "Attack Range": 4.5,
         "FOV": 360.0,
         "Min CPS": 14.0,
         "Max CPS": 14.0,
@@ -85,7 +85,7 @@
       }
     },
     "Criticals": {
-      "toggled": true,
+      "toggled": false,
       "hidden": false,
       "Properties": {
         "Mode": "Legit"
@@ -112,21 +112,21 @@
       "hidden": false,
       "Properties": {
         "Mode": "Range",
-        "Range To Reset Blink": 2.0,
-        "Display": true,
+        "Range To Reset Blink": 0.9500000000000001,
+        "Display": false,
         "Only With Killaura": true,
-        "Render Blink Pos": true
+        "Render Blink Pos": false
       }
     },
     "Lag Range": {
-      "toggled": true,
+      "toggled": false,
       "hidden": false,
       "Properties": {
         "Range": 6.0,
-        "Min Delay": 320.0,
-        "Max Delay": 230.0,
-        "Delay Teleports": true,
-        "Delay Velocity": true,
+        "Min Delay": 790.0,
+        "Max Delay": 930.0,
+        "Delay Teleports": false,
+        "Delay Velocity": false,
         "Delay Entity Movements": true,
         "Display": true,
         "Only With Killaura": true,
@@ -149,7 +149,7 @@
       }
     },
     "Back Track": {
-      "toggled": true,
+      "toggled": false,
       "hidden": false,
       "Properties": {
         "Min Delay": 230.0,
@@ -213,7 +213,7 @@
       "toggled": false,
       "hidden": false,
       "Properties": {
-        "Search Range": 4.0,
+        "Search Range": 8.0,
         "Only On Click": true,
         "Reset Time": 500.0,
         "Team Check": false,
@@ -418,7 +418,7 @@
       "toggled": false,
       "hidden": false,
       "Properties": {
-        "Mode": "Vanilla"
+        "Mode": "Verus"
       }
     },
     "Click Teleport": {
@@ -435,10 +435,10 @@
         "Min Rotation Speed": 10.0,
         "Max Rotation Speed": 10.0,
         "Limit Rotations": false,
-        "Yaw Max": 180.0,
-        "Yaw Min": 180.0,
-        "Pitch Max": 90.0,
-        "Pitch Min": 90.0,
+        "Yaw Max": 30.0,
+        "Yaw Min": 30.0,
+        "Pitch Max": 20.0,
+        "Pitch Min": 20.0,
         "Place Delay": 0.0,
         "Packet Place": false,
         "Packet Swing": true,
@@ -471,7 +471,7 @@
       "toggled": false,
       "hidden": false,
       "Properties": {
-        "Mode": "Position",
+        "Mode": "Blink",
         "Distance": 5.0
       }
     },
@@ -486,12 +486,12 @@
       "toggled": false,
       "hidden": false,
       "Properties": {
-        "Start Min Delay": 30.0,
+        "Start Min Delay": 42.0,
         "Start Max Delay": 42.0,
         "Recraft Min Delay": 30.0,
         "Recraft Max Delay": 42.0,
         "Start With": 3.0,
-        "Auto Close": false,
+        "Auto Close": true,
         "Auto Open": true,
         "Cactus": false,
         "Cocoa": true,
@@ -515,7 +515,7 @@
       }
     },
     "Regen": {
-      "toggled": true,
+      "toggled": false,
       "hidden": false,
       "Properties": {
         "Minimum Health": 3.0,
@@ -642,7 +642,7 @@
       "hidden": true,
       "Properties": {
         "Click Interface": "Normal",
-        "Font": "MC",
+        "Font": "Tahoma",
         "Color": "Advantage",
         "Anime": "Onikata",
         "Custom URL": "",
@@ -655,7 +655,7 @@
       "toggled": true,
       "hidden": false,
       "Properties": {
-        "Theme": "Advantage"
+        "Theme": "Red"
       }
     },
     "FPS Enhancer": {
@@ -667,7 +667,7 @@
         "Adaptive Render Distance": false,
         "Cull Distant Entities": true,
         "Cull Invisible Entities": true,
-        "Optimize Memory": false,
+        "Optimize Memory": true,
         "GC Interval (seconds)": 30.0,
         "Entity Cull Distance": 64.0,
         "Skip Dead Entities": false,
@@ -700,7 +700,7 @@
       "toggled": true,
       "hidden": false,
       "Properties": {
-        "Mode": "Advantage"
+        "Mode": "Vanilla"
       }
     },
     "Hit Sounds": {
@@ -763,8 +763,8 @@
       "toggled": false,
       "hidden": false,
       "Properties": {
-        "Mode": "Constant",
-        "Delay": 20.0,
+        "Mode": "Pulse",
+        "Delay": 100.0,
         "Render Blink Pos": true
       }
     },
@@ -792,7 +792,7 @@
         "Background Opacity": 1.0,
         "Outline": true,
         "Line": "Off",
-        "Hide Visuals": false,
+        "Hide Visuals": true,
         "Use MC Font": false,
         "No Spaces": false,
         "Char Spacing": 0.0,
@@ -811,8 +811,8 @@
       "toggled": true,
       "hidden": false,
       "Properties": {
-        "Client Watermark Type": "Simple",
-        "Watermark Info": false,
+        "Client Watermark Type": "Astolfo",
+        "Watermark Info": true,
         "Client Name": "Skuur"
       }
     },
@@ -855,9 +855,9 @@
       "toggled": true,
       "hidden": false,
       "Properties": {
-        "Glint Weapons": true,
+        "Glint Weapons": false,
         "Min Hue": 0.0,
-        "Max Hue": 360.0,
+        "Max Hue": 120.0,
         "Layers": 4.0
       }
     },
@@ -865,11 +865,11 @@
       "toggled": true,
       "hidden": false,
       "Properties": {
-        "Style": "Old",
-        "X": 0.0,
-        "Y": 0.0,
-        "Z": 0.0,
-        "Scale": 1.0,
+        "Style": "Exhibition",
+        "X": -0.15000000223517418,
+        "Y": 0.30000000447034836,
+        "Z": 0.05000000074505806,
+        "Scale": 0.4,
         "Slowdown": 1.0,
         "Flux Swing": false,
         "Dont Reset Block": true,
@@ -926,7 +926,7 @@
       "hidden": false,
       "Properties": {
         "Max Players": 8.0,
-        "Refresh": 60.0,
+        "Refresh": 30.0,
         "Only Mush": true,
         "Hide Self": false,
         "Game": "BedWars"
@@ -955,11 +955,11 @@
       "hidden": false,
       "Properties": {
         "Scoreboard Style": "Left",
-        "Minecraft Font": false
+        "Minecraft Font": true
       }
     },
     "Session Information": {
-      "toggled": false,
+      "toggled": true,
       "hidden": false,
       "Properties": {
         "Mode": "Advantage"
@@ -1010,7 +1010,7 @@
       }
     },
     "Halo": {
-      "toggled": false,
+      "toggled": true,
       "hidden": false,
       "Properties": {
         "Quality": "SMOOTH",
@@ -1037,10 +1037,10 @@
       "hidden": false
     },
     "Aspect Ratio": {
-      "toggled": false,
+      "toggled": true,
       "hidden": false,
       "Properties": {
-        "Aspect": 1.0
+        "Aspect": 1.9000000283122063
       }
     },
     "Trajectories": {
@@ -1091,6 +1091,10 @@
     }
   },
   "Dragging": {
+    "SessionInformation": {
+      "x": 462.0,
+      "y": 218.0
+    },
     "Radar": {
       "x": 125.0,
       "y": 72.5
@@ -1102,6 +1106,18 @@
     "TargetInterface": {
       "x": 225.0,
       "y": 180.0
+    },
+    "Spotify": {
+      "x": 200.0,
+      "y": 200.0
+    },
+    "Overlay": {
+      "x": 11.5,
+      "y": 126.33333333333337
+    },
+    "Notifications": {
+      "x": 2.0,
+      "y": 446.0
     },
     "InfoDisplay_CPS": {
       "x": 10.0,
