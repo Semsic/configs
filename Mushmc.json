@@ -9,8 +9,8 @@
         "Auto Block": "Mushmc",
         "Auto Block CPS": 10.0,
         "Auto Block Range": 6.0,
-        "Swing Range": 3.5,
-        "Seek Range": 4.2,
+        "Swing Range": 6.0,
+        "Seek Range": 5.0,
         "Attack Range": 3.0,
         "FOV": 360.0,
         "Min CPS": 20.0,
@@ -108,7 +108,7 @@
       }
     },
     "Blink Range": {
-      "toggled": true,
+      "toggled": false,
       "hidden": false,
       "Properties": {
         "Mode": "Range",
@@ -119,7 +119,7 @@
       }
     },
     "Lag Range": {
-      "toggled": true,
+      "toggled": false,
       "hidden": true,
       "Properties": {
         "Range": 1.4000000000000001,
@@ -131,6 +131,40 @@
         "Display": true,
         "Only With Killaura": true,
         "Render Lag Pos": true
+      }
+    },
+    "LagBreaker": {
+      "toggled": true,
+      "hidden": false,
+      "Properties": {
+        "Start Range": 2.5,
+        "Deactivate Range": 5.300000000000001,
+        "FakeLag Delay": 650.0,
+        "LagRange Delay": 120.0,
+        "Weapons Only": true,
+        "Allow Tools": false,
+        "Bot Check": false,
+        "Teams": true,
+        "Air Delay": 150.0,
+        "Ground Delay": 140.0,
+        "Chance": 100.0,
+        "Realtime Damage": true,
+        "Require Target": true,
+        "Only Swords": true
+      }
+    },
+    "Knockback Delay": {
+      "toggled": false,
+      "hidden": false,
+      "Properties": {
+        "Air Delay": 150.0,
+        "Ground Delay": 150.0,
+        "Chance": 100.0,
+        "Activate Range": 2.0,
+        "Deactivate Range": 10.0,
+        "Realtime Damage": true,
+        "Require Target": false,
+        "Only Swords": false
       }
     },
     "Velocity": {
@@ -145,11 +179,12 @@
         "Reduce X": 93.0,
         "Reduce Z": 93.0,
         "Delay": 50.0,
+        "Cris Delay": 150.0,
         "Legit Lag": false
       }
     },
     "Back Track": {
-      "toggled": true,
+      "toggled": false,
       "hidden": false,
       "Properties": {
         "Min Delay": 190.0,
@@ -160,6 +195,25 @@
         "Cancel Client Packets": true,
         "Swing Check": true,
         "Release On Damage": true
+      }
+    },
+    "Hit Flick": {
+      "toggled": true,
+      "hidden": false,
+      "Properties": {
+        "Direction": "Right",
+        "Custom Angle": 90.0,
+        "Cooldown": 14.0,
+        "Blink": false
+      }
+    },
+    "More KB": {
+      "toggled": true,
+      "hidden": false,
+      "Properties": {
+        "Mode": "Packet",
+        "Intelligent": true,
+        "Only Ground": false
       }
     },
     "Fast Bow": {
@@ -306,7 +360,7 @@
       "hidden": false,
       "Properties": {
         "Min Range": 3.0,
-        "Max Range": 3.0,
+        "Max Range": 4.0,
         "Buffer Decrease": 1.0,
         "Max Buffer": 5.0,
         "Buffer Abuse": false
@@ -533,9 +587,9 @@
       "toggled": false,
       "hidden": false,
       "Properties": {
-        "Start Delay": 0.0,
-        "Min Delay": 5.0,
-        "Max Delay": 5.0,
+        "Start Delay": 75.0,
+        "Min Delay": 50.0,
+        "Max Delay": 75.0,
         "Steal Trash Items": false,
         "Auto Close": true,
         "Check Chest Name": false,
@@ -549,8 +603,8 @@
         "Mode": "Open",
         "Stop": true,
         "Throw Garbage": true,
-        "Start Delay": 0.0,
-        "Speed": 1000.0,
+        "Start Delay": 19.0,
+        "Speed": 46.0,
         "Sword": true,
         "Sword Slot": 1.0,
         "Axe": true,
@@ -574,7 +628,7 @@
       "Properties": {
         "Mode": "Open",
         "Stop": true,
-        "Start Delay": 0.0,
+        "Start Delay": 46.0,
         "Speed": 1000.0
       }
     },
@@ -793,11 +847,11 @@
         "Outline": true,
         "Line": "Rise",
         "Hide Visuals": false,
-        "Use MC Font": true,
+        "Use MC Font": false,
         "No Spaces": true,
         "Char Spacing": 2.0,
         "Show Suffix": true,
-        "Suffix Mode": "Space",
+        "Suffix Mode": "Brackets",
         "Lowercase": false,
         "Color Mode": "Static",
         "Offset X": 6.0,
